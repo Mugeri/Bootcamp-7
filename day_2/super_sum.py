@@ -8,7 +8,7 @@ def super_sum(A):
 	and returns the sum of all
 	'''
 	total = 0
-	
+
 	for each in A:
 		if each % 2== 0:
 			total += each / 2
@@ -16,5 +16,6 @@ def super_sum(A):
 			total += each * 2
 	
 	return total
+
 
 
