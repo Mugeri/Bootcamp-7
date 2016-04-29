@@ -14,8 +14,6 @@ def arith_geo(*A):
 				return 'Arithmetic'
 			elif(d1/d)==(d2/d1):
 				return 'Geometric'
-			elif A == None:
-				return 0
 			else:
 				return -1
 		
